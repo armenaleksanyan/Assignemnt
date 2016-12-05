@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Stories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="addnewStoryWindow" style="display:none"></div>
+<div id="listStories">
+    <div class="demo-section k-content wide">
+        <button class="k-button k-button-icontext k-add-button" id="addnewStory"><span class="k-icon k-add"></span>Add new record</button>
+        <div id="listView"></div>
+        <div id="pager" class="k-pager-wrap"></div>
+    </div>
+</div>
+@Scripts.Render("~/bundles/story")
+<script type="text/x-kendo-template" id="template" style="padding:5px;">
+    <div class=" k-group" style="padding:5px; border:black solid 1px" id="editStory">
+    <h2>#:Title#</h2>
+    <p> Created By #: User.FullName#</p>
+    <p> PostedOn #: $storyManager.parseJsonDate(PostedOn)#</p>
+    <div class="edit-buttons">
+        <a class="k-button" href="\\#" onclick="$storyManager.clickEdit('#:StoryId#')"><span class="k-icon k-edit"></span></a>
+        <a class="k-button" href="\\#" onclick="$storyManager.clickView('#:StoryId#')">Details</a>
+    </div>
+    </div>
+</script>
+<script>
+    $(document).ready(function () {
+        var storyParams = {
+            getStoryUrl: '@Url.Action("GetStories", "Story")',
+            saveStoryUrl: '@Url.Action("SaveStory", "Story")',
+            addNewStoryUrl: '@Url.Action("AddNewStories", "Story")',
+            getGroupUrl : '@Url.Action("GetGroups", "Common")'
+        };
+        var _storyManager = new storyManager(storyParams);
+    });
+</script>

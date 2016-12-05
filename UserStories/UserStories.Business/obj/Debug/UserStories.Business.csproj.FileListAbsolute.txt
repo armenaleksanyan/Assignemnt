@@ -1,0 +1,17 @@
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\UserStories.Business.dll.config
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\UserStories.Business.dll
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\UserStories.Business.pdb
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\EntityFramework.dll
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\EntityFramework.SqlServerCompact.dll
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\System.Data.SqlServerCe.dll
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\UserStories.Data.dll
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\UserStories.DTO.dll
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\UserStories.Data.pdb
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\UserStories.DTO.pdb
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\EntityFramework.xml
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\Git Projects\UserStories\UserStories.Business\bin\Debug\EntityFramework.SqlServerCompact.xml
+E:\Git Projects\UserStories\UserStories.Business\obj\Debug\UserStories.Business.csprojResolveAssemblyReference.cache
+E:\Git Projects\UserStories\UserStories.Business\obj\Debug\UserStories.Business.dll
+E:\Git Projects\UserStories\UserStories.Business\obj\Debug\UserStories.Business.pdb

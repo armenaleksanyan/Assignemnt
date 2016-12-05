@@ -1,0 +1,38 @@
+﻿@model UserStories.Web.Models.LoginModel
+@{
+    ViewBag.Title = "Login";
+}
+@Styles.Render("~/Content/Bootstrap/css")
+
+<div class="modal-dialog" style="margin: 0px auto; padding-top: 50px">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="text-center">Use a local account to log in.</h1>
+        </div>
+        <div class="modal-body">
+            <form class="form col-md-12 center-block" action="@Url.Action("Login", "Account", new { returnUrl = ViewBag.ReturnUrl })" method="post">
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                <div class="form-group">
+                    <input type="text" class="form-control input-lg" name="UserName" placeholder="UserName" required="" data-required-msg="dsaff" autofocus="">
+                    <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control input-lg" name="Password" placeholder="Password" required="" data-required-msg="dsaff">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-lg btn-block" type="submit" style="height: 40px;">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">            
+            <div class="col-md-12">
+                <p style="color: #337ab7">                
+                    @Html.ActionLink("Register", "Register") if you don't have an account.        
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")

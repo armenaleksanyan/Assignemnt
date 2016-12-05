@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Groups";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="addnewGroupWindow" style="display:none"></div>
+<div id="listGroup" >
+    <div class="demo-section k-content wide">
+        <button class="k-button k-button-icontext k-add-button" id="addnewGroup"><span class="k-icon k-add"></span>Add new record</button>
+        <div id="listView"></div>
+        <div id="pager" class="k-pager-wrap"></div>
+    </div>
+</div>
+@Scripts.Render("~/bundles/group")
+<script type="text/x-kendo-template" id="template">
+    <div class="k-group" style="padding:5px; border:black solid 1px">
+        <h3>#:GroupInfo#</h3>
+        <p>Members #:MembersCount#</p>
+        <p>Stories #:StoriesCount#</p>        
+    </div>     
+</script>
+<script>
+    $(document).ready(function () {
+        var groupParams = {
+            getGroupUrl: '@Url.Action("GetGroupInfo", "Group")',
+            saveGroupUrl: '@Url.Action("SaveGroup","Group")',
+            addNewGroupUrl: '@Url.Action("AddNewGroup", "Group")'
+        };
+        var _groupManager = new groupManager(groupParams);
+    });
+</script>
+

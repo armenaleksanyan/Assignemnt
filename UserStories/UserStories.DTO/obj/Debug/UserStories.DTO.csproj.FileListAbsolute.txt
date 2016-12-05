@@ -1,0 +1,4 @@
+E:\Git Projects\UserStories\UserStories.DTO\bin\Debug\UserStories.DTO.dll
+E:\Git Projects\UserStories\UserStories.DTO\bin\Debug\UserStories.DTO.pdb
+E:\Git Projects\UserStories\UserStories.DTO\obj\Debug\UserStories.DTO.dll
+E:\Git Projects\UserStories\UserStories.DTO\obj\Debug\UserStories.DTO.pdb

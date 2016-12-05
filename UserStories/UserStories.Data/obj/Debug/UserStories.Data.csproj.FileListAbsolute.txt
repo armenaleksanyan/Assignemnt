@@ -1,0 +1,10 @@
+E:\Git Projects\UserStories\UserStories.Data\bin\Debug\UserStories.Data.dll.config
+E:\Git Projects\UserStories\UserStories.Data\bin\Debug\UserStories.Data.dll
+E:\Git Projects\UserStories\UserStories.Data\bin\Debug\UserStories.Data.pdb
+E:\Git Projects\UserStories\UserStories.Data\bin\Debug\EntityFramework.dll
+E:\Git Projects\UserStories\UserStories.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Git Projects\UserStories\UserStories.Data\bin\Debug\EntityFramework.xml
+E:\Git Projects\UserStories\UserStories.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Git Projects\UserStories\UserStories.Data\obj\Debug\UserStories.Data.dll
+E:\Git Projects\UserStories\UserStories.Data\obj\Debug\UserStories.Data.pdb
+E:\Git Projects\UserStories\UserStories.Data\obj\Debug\UserStories.Data.csprojResolveAssemblyReference.cache
